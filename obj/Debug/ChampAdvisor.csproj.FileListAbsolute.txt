@@ -1,0 +1,6 @@
+C:\Users\Josh\documents\visual studio 2017\Projects\ChampAdvisor\ChampAdvisor\bin\Debug\ChampAdvisor.exe.config
+C:\Users\Josh\documents\visual studio 2017\Projects\ChampAdvisor\ChampAdvisor\bin\Debug\ChampAdvisor.exe
+C:\Users\Josh\documents\visual studio 2017\Projects\ChampAdvisor\ChampAdvisor\bin\Debug\ChampAdvisor.pdb
+C:\Users\Josh\documents\visual studio 2017\Projects\ChampAdvisor\ChampAdvisor\obj\Debug\ChampAdvisor.csprojResolveAssemblyReference.cache
+C:\Users\Josh\documents\visual studio 2017\Projects\ChampAdvisor\ChampAdvisor\obj\Debug\ChampAdvisor.exe
+C:\Users\Josh\documents\visual studio 2017\Projects\ChampAdvisor\ChampAdvisor\obj\Debug\ChampAdvisor.pdb

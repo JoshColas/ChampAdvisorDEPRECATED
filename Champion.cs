@@ -1,26 +1,27 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace ChampAdvisor
 {
     public class Champion
     {
-        int _ImpactRating;
-        string[] Info;
+        byte _ImpactRating;
+        Dictionary<string, string[]> _Info;
 
-        public Champion(string[] championInfo)
+        public Champion(Dictionary<string, string[]> championInfo)
         {
-            if (championInfo.Length == 12)
+            if (championInfo.Count == 12)
             {
-                Info = championInfo;
+                _Info = championInfo;
             }
             else
             {
-                Debug.Write("System Exception - Champion data array must contain 12 elements");
-                throw new System.Exception("Champion data array must contain 12 elements");
+                Debug.Write("System Exception - Champion data must contain 12 elements");
+                throw new System.Exception("Champion data must contain 12 elements");
             }
         }
 
-        public int ImpactRating { get => _ImpactRating; set => _ImpactRating = value; }
+        public byte ImpactRating { get => _ImpactRating; set => _ImpactRating = value; }
     }
 }
 /*
